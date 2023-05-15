@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+
+<head>
+   <title>Renas portfolio</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Renas</label>
+      <ul id="mobilemenu">
+         <!-- <li><a class="active" href="portfolio-Index.html">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="portfolio-Index.html">contact</a></li>-->
+         <li><a href="javascript:SelectPart(1)" class="active" id="ContentTest">HOME</a></li>
+         <li><a href="javascript:SelectPart(2)" id="AboutTest">ABOUT</a></li>
+         <li><a href="javascript:SelectPart(3)" id="Contacttest">CONTACT</a></li>
+      </ul>
+   </nav>
+
+   <div class="content" id="Content">
+      <div class="name">
+         I'm Renas Shekho
+      </div>
+      <div>
+         programmer
+      </div>
+   </div>
+
+   <div class="about" id="About" style="visibility: hidden;">
+    
+      <div class="about-title">
+      About Me
+      <div class="aboutMe">Hello, and welcome to my portfolio! My name is Renas Shekho, and I am a programmer.<br><br> I specialize in c#,JS and HTML&CSS,  and I have 2 years of experience in the field.
+
+         In my spare time, I enjoy playing guitar and pc.games.<br><br>  Thank you for visiting my portfolio,</div>
+
+      </div>
+      <h1 class="Myskills">My Skills</h1>
+
+      <p>HTML & CSS</p>
+      <div class="containers">
+         <div class="skills html">60%</div>
+      </div>
+
+      <p>IT SUPORT</p>
+      <div class="containers">
+         <div class="skills itSupport">65%</div>
+      </div>
+
+      <p>C#</p>
+      <div class="containers">
+         <div class="skills c">75%</div>
+      </div>
+
+      <p>Web Design</p>
+      <div class="containers">
+         <div class="skills WebDesign">20%</div>
+      </div>
+   </div>
+   
+<div class="Contact"  id="Contact" style="visibility: hidden;">
+ 
+   <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text"> Hello, Please fell free to contact me  
+        </p>
+
+        <div class="info">
+          <div class="information">
+           
+            <p>Aalborg 9000, Danmark</p>
+          </div>
+              <div class="information">
+            
+            <p>42-773-999</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with me :</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/RENO.RENASS/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            
+            <a href="https://www.youtube.com/@renasshekho6848">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://wa.me/42773999">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div><br>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="https://formsubmit.co/c17714c5f41d06afdfa8ded4effb9402" method="post">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" required/>
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" required/>
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" required/>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+   </div>
+
+</div>
+</body>
+
+</html>
+
+
